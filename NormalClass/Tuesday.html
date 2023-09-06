@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grid</title>
+    <style>
+        #div01{
+            height: 60vh;
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;/*no. of 1fr tells the no. of frames or no. of columns*/
+        }
+        .item{
+            background-color: aqua;
+            height: 100px;
+            width: 100px;
+            border: 1px solid tomato;
+        }
+    </style>
+</head> 
+<body>
+    <div id="div01">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div>
+</body>
+</html>
