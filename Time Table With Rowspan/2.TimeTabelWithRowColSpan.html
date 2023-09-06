@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Time Table</title>
+    <style>
+        .A{
+            background-color: aqua;
+        }
+        .B{
+            background-color: rgb(141, 89, 191);
+        }
+        .restday{
+            background-color: rgb(116, 145, 190);
+        }
+        .ch{
+            background-color: rgb(169, 125, 67);
+        }
+    </style>
+</head>
+<body>
+    <table border="5px" width="400px" bgcolor="lightgreen">
+        <thead>
+            <tr class="A">
+                <th rowspan="4">DAY </th>
+                <tr>
+                    <th colspan="3" bgcolor="lightyellow">LECTURES</th>
+                </tr>
+            </tr>
+            <tr>
+                <th colspan="2" bgcolor="purple">SCHEDULE</th>
+                <th rowspan="2">CHAPTER</th>
+            </tr>
+            <tr>
+                <th>STARTS</th>
+                <th>ENDS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="A">Monday</td>
+                <td class="B">8 A.M</td>
+                <td rowspan="6" bgcolor="lightpink">10 P.M.</td>
+                <td class="ch">Introduction to DSA</td>
+            </tr>
+            <tr>
+                <td class="A">Tuesday</td>
+                <td class="B">8:30A.M.</td>
+                <td class="ch">OOPs</td>
+            </tr>
+            <tr>
+                <td class="A">Wednesday</td>
+                <td class="B">8:40 A.M</td>
+                <td class="ch">Java Programming</td>
+            </tr>
+            <tr>
+                <td class="A">Thursday</td>
+                <td class="B">8:50 A.M</td>
+                <td class="ch">Discrete Mathmatics</td>
+            </tr>
+            <tr>
+                <td class="A">Friday</td>
+                <td class="B">9 A.M</td>
+                <td class="ch">DBMS</td>
+            </tr>
+            <tr>
+                <td class="A">Saturday</td>
+                <td class="B">9:10 A.M</td>
+                <td class="ch">C++ Language</td>
+            </tr>
+            <tr>
+                <td class="A">Sunday</td>
+                <td colspan="4"; class="restday" style="text-align: center;"> Rest Day</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
