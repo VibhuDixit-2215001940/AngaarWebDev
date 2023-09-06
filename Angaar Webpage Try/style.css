@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{      /*BACKGRPUND IMAGE*/
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(BACK.jpg);/*IMAGE VISIBILITY REDUCED TO 50%*/
+    background-position: center;
+    background-size: cover;
+}
+.navbar{        /*NAVIGATION BAR*/
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{          /*NAVIGATION BAR ELEMENTS*/
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+#A{
+    cursor: pointer;
+    padding: 10px;
+    float: left;
+    border-radius: 30px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{/*ELEMENTS POSITION*/
+    float: left;
+    display: flex;
+    justify-content: space-between;/*GIVES SPACES*/
+    align-items: end;/*SPECIFIES THE POSITION AT END*/
+}
+ul li{      /*ELEMENTS POSITION*/
+    list-style: none;/*REMOVES BULLETS*/
+    margin-left: 60px;/*FONT LOCTION FROM LEFT*/
+    margin-top: 20px;/*FONT LOCATION FROM TOP*/
+    font-size: 20px;/*FONTS SIZE BOCEOMES LARGE*/
+}
+ul li a{            /*PERSONALITY OF ELEMENTS*/
+    text-decoration: none;/*REMOVES UNDERLINE*/
+    color: #fff;/*GIVES FONT WHITW COLOR*/
+    font-family: Arial;/*GIVES A STYLE*/
+    transition: 0.6s ease-in-out;/*COLOR CHANGE TIME TAKES 0.6S*/
+    font-weight: bold;/*FONT BECOMES BOLD*/
+}
+ul li a:hover{      /*WHEN TOUCHES CHANGES COLOR TO ORANGE*/
+    color: orange;
+}
+.search{        /*SARCH COLUMN*/
+    width: 330px;
+    width: 200px;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: ;
+}
+
+
+
+
+
+
+
+
+
+
