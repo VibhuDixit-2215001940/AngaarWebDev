@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Tribute Website </title>
+    <link href="https://fonts.googleapis.com/css?family=Sofia|Trirong|Audiowide|Tangerine|Orbit|Kablammo|Tilt Prism|Amatic SC|Orbitron" rel="stylesheet">
+    <style>
+        *{              /*To overcome the default values*/
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: #c3dff0;
+            min-height: 100vh;
+            border: 20px solid black;
+        }
+        .content{
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .image_container,img{
+            width: 300px;
+            height: 300px;
+        }
+        .top_section{
+            margin-top: 70px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+        .top_section h1{
+            font-size: 50px;
+            /* font-weight: bold; */
+            color: blueviolet;
+            font-family: "Tilt Prism";
+        }
+        .image_container{
+            border-radius: 50%;
+            overflow: hidden;
+        }
+        .top_section h3{
+            text-align: end;
+        }
+        #a{
+            font-family: "Sofia";
+        }
+        #b{
+            font-size: 40px;
+        }
+        .A{
+            font-size: 20px;
+            color: rgb(87, 14, 14);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <section class="top_section">
+                <div class="image_container">
+                    <img src="3.GIRL.avif">
+                </div>
+                <div>
+                    <h1><b>BHOOMI SHAKYA🫣</b></h1>
+                    <h3><b>D.O.B ~ 13</b><sup>th</sup> <b> May</b></h3>
+                </div>
+             </section>
+                    <p id="b">Best Web Developer!!</p>
+                    <p id="a"><b>Bhoomi didi is the best teacher with sweet voice. She always loves her students very much. Her kind nature toward students is overwhelming. She is very hard working girl with lots of desires. She deserves best opportunity for her life. Her eager to code nature is very lovely. The way of her resolving queries is mind blowing.</b></p>
+                    <br>
+                    <center><div class="A"><label for="mygender">AGREE?? </label> Yes <input type="radio" id="mygender"> No <input type="radio" id="mygender"></div></center>
+                    <center><br/>
+                        <div class="A"><label for="mytext">Leave A Comment: </label><br/><textarea id="mytext" cols="30" rows="2" placeholder="write something"></textarea></div></center>
+        </div>
+    </div>
+</body>
+</html>
