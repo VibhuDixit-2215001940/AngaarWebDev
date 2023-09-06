@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sleep Well</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sofia|Trirong|Audiowide|Tangerine|Orbit|Kablammo|Tilt Prism|Amatic SC|Orbitron" rel="stylesheet">
+    <style>
+        *{              /*To overcome the default values*/
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        .container{     /*Background pic*/
+            width: 100%;
+            height: 100vh;
+            background: url(BACK.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .navbar{        /*Navigation baar*/
+            width: 85%;
+            margin: auto;
+            padding: 20px 0;
+            display: flex;
+            align-items:center;
+            justify-content: space-between;
+        }
+        .navbar ul li{      /*Navigation element physique*/
+            list-style: none;   /*Removes bullet*/
+            display: inline-block;
+            margin: 0 35px;
+            position: relative;
+        }
+        #A{             /*Image physique*/
+            border-radius: 35%;
+            padding: 10px;
+            cursor: pointer;
+        } 
+        .navbar ul li a{        /*Navigation bar element link*/
+            text-decoration: none;
+            color: #fff;
+            text-transform: uppercase;
+        }
+        .navbar ul li::after{       /*Blue Hover Effect*/
+            content: '';
+            height: 3px;
+            width: 0;/*For hidding blue line below the navigation bar content*/
+            background: #009688;
+            position:absolute ;
+            left: 0;
+            bottom: -10px;    /*For setting blue line in navigation bar*/
+            transition: 0.5s;
+        }
+        .navbar ul li:hover::after{
+            width: 100%;
+        }
+        #B{     /*Company Holder*/
+            font-size: 30px;
+            font-family: "Sofia";
+        }
+        button:hover{   /*Contact button*/
+            border:none;
+        }
+        button{         /*utton*/
+            width: 200px;
+            padding: 15px 0;
+            text-align: center;
+            margin: 20px 10px;
+            border-radius: 25px;
+            font-weight: bold;
+            border: 2px solid #009688; 
+            background: transparent;
+            color: #fff;
+            cursor: pointer;
+}
+    .content{       /*All written work*/
+        width: 100%;
+        position:absolute;
+        top: 62%;
+        transform: translateY(-50%);
+        text-align: center;
+        color: #fff;
+
+}
+.content h1{        /*Heading*/
+    font-size: 70px;
+    margin-top: 60px;
+}
+.content p{
+    margin: 10px auto;
+    font-weight: 80px;
+    line-height: 25px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="logo.jpg" height="300px" width="300px" id="A">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Apply</a></li>
+                <li><a href="#">Query</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>MAKE YOUR SLEEP EXCELLENT!!</h1>
+            <P><b>Here we will provide you a best partner for ur massage and padding to you.You will we amaze to see our results.Our expertese worker make you Sleep Well!! </b></P>
+            <br>
+            <p id="B"><b>Company Holder:- <span id="Z">Naman Sharma</span></b></p>
+            <p><b>Press the contact button for applying a meeting.</b></p>
+            <div>
+                <button type="button">CONTACT US</button>
+                <button type="button">CV</button>
+            </div>
+        </div>
+    <div class="BODY">
+        <footer>
+            <div class="row">
+                <div class="col">       <!--Address-->
+                    <h3><b>Address</b><div class="underline"><span></span></div></h3>
+                    <p>Delhi</p>
+                    <p>GB,Road</p>
+                    <p>Red Light Area</p>
+                </div>
+                <div class="col">
+                    <h3>Links<div class="underline"><span></span></div></h3>
+                    <ul>
+                        <li>facebook<a href="www.facebook.com"><img src="fb.png" height="13px" width="13px"></a></li>
+                        <li>Instagram<a href="www.facebook.com"><img src="insta.png" height="13px" width="13px"></a></li>
+                        <li>YouTube<a href="www.facebook.com"><img src="yt.jpg" height="13px" width="13px"></a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Write a comment:</h3><input type="text" placeholder="leave a comment" >
+                </div>
+                <div class="col">
+                    <h2>Sleep Tight For A Better Fight!!</h2>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

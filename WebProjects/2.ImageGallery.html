@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
+    <style>
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    #d05{
+        padding: 8px;
+        height: 10vh;
+        background-color: rgb(205, 58, 146);
+        color: #fff;
+    }
+    a:hover{
+        background-color: rgb(121,12,223);
+        transition: 1s;
+    }
+    #d06{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 75vh;
+        width: 500px;
+        border: 2px solid black;
+        margin-left: 5rem;
+        margin-top: 2rem;
+        margin-right:auto ;
+        gap: 10px;
+    }
+    #d01{
+        /* background-color:black; */
+    }
+    #d02{
+
+    }
+    .item{
+        text-align: flex-end;
+        background-color: black;
+        color: #fff;
+        border: 2px solid #fff;
+    }
+    #d03{
+        text-decoration: none;
+        
+    }
+    .image{
+        height: 250px;
+        width: 350px;
+
+    }
+    .BODY{
+    background: #eef8ff;
+}
+footer{
+    width: 100%;
+    position:absolute ;
+    bottom: 0;
+    background: linear-gradient(to right, #040615, #150702);
+    color: #fff;
+    padding: 20px 0 2px;
+    border-top-right-radius: 125px;
+    font-size: 13px;
+    line-height: 15px;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 1px;
+    position: relative;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <div id="d01">
+        <div id="d02">
+            <img src="codepen.png" alt="" style="height: 60px; width: 70px;">
+            <h2>Images</h2>
+        </div>
+        <div id="d03">          <!--NAVBAR-->
+            <a href="" class="items">HOME</a>
+            <a href="" class="items">ABOUT</a>
+            <a href="" class="items">CONTACT US</a>
+        </div>
+        <div id="d04">
+            <a href="" class="items" style="border: 2px solid #fff;"><button>Book Trial</button></a>
+        </div>
+    </div>
+    <br>
+    <div id="d05">
+        <p style="text-align: center;">This is a kind of image gallery</p>
+    </div>
+    <div id="d06">
+        <div class=""><img src="image1.jfif" alt="img" class="image"></div>
+        <div><img src="image2.jfif" alt="img" class="image"></div>
+        <div><img src="image3 (1).jfif" alt="img" class="image"></div>
+        <div><img src="image4.jfif" alt="img" class="image"></div>
+        <div><img src="image5.jfif" alt="img" class="image"></div>
+        <div><img src="image6.jfif" alt="img" class="image"></div>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col">       <!--Address-->
+                <h3><b>Address</b><div class="underline"><span></span></div></h3>
+                <p>Delhi</p>
+                <p>GB,Road</p>
+                <p>Red Light Area</p>
+            </div>
+            <div class="col">
+                <h3>Links<div class="underline"><span></span></div></h3>
+                <ul>
+                    <li>facebook<a href="www.facebook.com"><img src="fb.png" height="13px" width="13px"></a></li>
+                    <li>Instagram<a href="www.facebook.com"><img src="insta.png" height="13px" width="13px"></a></li>
+                    <li>YouTube<a href="www.facebook.com"><img src="yt.jpg" height="13px" width="13px"></a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h3>Write a comment:</h3><input type="text" placeholder="leave a comment" >
+            </div>
+            <div class="col">
+                <h2>Sleep Tight For A Better Fight!!</h2>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
