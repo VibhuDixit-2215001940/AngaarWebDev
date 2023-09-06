@@ -1,0 +1,102 @@
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    font-size: 30px;
+    padding-top: 60px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #090000;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+   content: '';
+   height: 3px;
+   width: 0;/*For hidding blue line below the navigation bar content*/
+   background: #eb7b5c;
+   position:absolute ;
+   left: 0;
+   bottom: -10px;    /*For setting blue line in navigation bar*/
+   transition: 0.5s;
+}
+.navbar ul li:hover::after{
+   width: 100%;
+}
+button:hover{
+    border:none;
+}
+button{
+    width: 200px;
+    padding: 20px 0;
+    text-align: center;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 2px solid #6f1170; 
+    background: transparent;
+    color: #126f05;
+    cursor: pointer;
+    font-size: 14px;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1 {
+  background-image: url(images/image1.jpg);
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url(images/image2.jpg);
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url(images/image3.avif);
+  min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;/*This is root of parallex effect*/
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: transparent;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg {
+  background: #313534;
+  color: #fff;
+  padding: 20px;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
