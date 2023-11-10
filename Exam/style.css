@@ -1,0 +1,86 @@
+section{
+    display: flex;
+}
+
+.nav{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+img{
+    height: 40px;
+    padding-left: 50%;
+    padding-right: 20%;
+}
+.img{
+    width: 40%;
+    border-right: 2px solid black ;
+    
+}
+.ho{
+    margin-left: 20px;
+    margin-right: 450px;
+}
+
+.navhome{
+    display: flex;
+    width: 38%;
+    border-right: 2px solid black ;
+}
+.search{
+    background-color: rgb(128, 128, 128);
+    padding-left: 25px;
+}
+
+/* left */
+
+.left{
+    width: 40%;
+    height: 680px;
+    border-right: 2px solid black ;
+}
+.links{
+    padding-left: 50%;
+    padding-right: 20%;
+
+}
+a{
+    display: flex;
+    margin-top: 30px;
+}
+.cl{
+    margin-left: 20px;
+}
+.last{
+    padding-left: 50%;
+    padding-right: 20%;
+    margin-top: 500px;
+
+}
+ /* main */
+ .main{
+    width: 35%;
+    height: 680px;
+    border-right: 2px solid black ;
+    padding: 25px;
+
+ }
+ .te{
+    height: 100px;
+    width: 500px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+ }
+ .tweet{
+    border-radius: 30px;
+    background-color: rgb(13, 13, 97);
+    color: white;
+ }
+ p{
+   
+ }
+
+ /* right */
+ .right{
+    padding-left: 25px;
+ }

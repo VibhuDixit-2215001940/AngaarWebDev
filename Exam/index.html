@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="nav">
+        <div class="img">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAolBMVEX///9VrO9VrPDM5vFVre5LputHp+r///3//v////xVre1XrO/7//////r//vz2//9PrPPZ7PXp+P1cquNys+FTpOGXx+Xw/v+AtttVp+NNpOXM6fvX8fny//5GoeWNwuN+tuGq0+/g9vrD5PaIvuNgq9+o2vF5vOqLxu1utOWkz+zi8fa73/G02OvD7vxsueuWy+ajxNddpt1NntjB2+i+5/QtEzrBAAAJg0lEQVR4nO2dDXfbqBKGBQKhTwvLshURJ/6Ivdkm9t292d3//9cug5I07TqSrEhGvp33tDnpqWx4BAwDDOA4KBQKhUKhUCgUCoVCoVAoFAqFQqFQKBQKhUKhUCjUoBK20h00YT8O9Pf7kEqcTV0bmmYxYMILHgI1FoAXiNhdze75xeXpv0rNVm6sX7EvhihNX8SJ/l43V5QRwgil7JLS6WkR6eVulZv+CaGKinQ1lzSiRCsiFxVjIdMJh5SqxV0C9WkIBcXaM6+T6DcKiV60CAFT/6HUuykGMTm6gac33BQeDUMoQnpJMaijugxDnay8SZNBCJ0Vv2zN/ERMeotBjKlw59Q2XKWIlLeDdBe5DG2zGdEwonk8AKGr9FfbpgMxFhHl9g8oVvqrbcMZMSZDuuqfMJ4xKkeBKAllsoz7bokiU6PAexW9zxJH9NvtTzmlI7GlWtSbCr9nQpezURG6vTturqf9wtEgAmHfiK43GjzyRhj0S8jHR9ivOdXtcETG1BD23F8A4XgQkRAJkdC+kBAJkdC+kBAJkdC+kBAJkbAXva6zkk5TB1dBaCCjjhPpV0FYLXfCJH2HKbyrIKSw1glsUYclrWsgpNRT87IsVac5PGuEusa1eQtgX+b55nZbFNny4SlXnv4UlfAFlLCISsUasC0R6loXRo0lAk2PznfLVFRRMcJJnzczj0SRiYDQqXj73x6NoR0dofz9Gw3rCV9Xd/aukwTCRHH5EIjkxA85B7iQyPv8wXlQkoTjI6TcLfb1K+G0qoR5lgSx81qE+qeIRRA/zDiVslwt42T7AgVd902WCGeZs93XlqGphzQvAs1kSnAC+fQNbZI+lbNN5gSTeEdJQw9iiTBPHee5HlE3LlZuYUWlyp75KXzfxAQ6z4X55wEMDwnrUrNEuII0t3vJ2OeVLJTqoHF+WBgTH/IqxKR4kVUc2+gI+cakWeQSXj+N6AlGDb9uChTZSSm5Clld4IclwgOUhhB3N1wXoGaR/86Y7iemDRk73s/Wi+N//qh15uwQqtuKUKQLrns3efrxvD6IQiTTLI2dYq3f0lgJIRJ1o+RJr4RRdWiRryDLtcc6PkvDb18f1ZTLF8JOMDJSZkl9xqASaGvVMHC0RPjwPU1R7BQYVBL+UNeY1HamPmOBEyxfml0/O4TH7+ERvhAH7aOE2lz88CH51BRBIZzpS7P7bqk/XIj3KHrfiUW20sX4kyfODw0BzELczmnTyMKeTwNx9FWy1W/TGyV/zOx86TTY0rSUDd67PUKitu9lODFbBhLHXesR7ocMz7cNhE5RkuYitEXIjzrN7x6LEBrS2S5mir5ZRjq7a8rXdq7dobES0n0a/Jys/mfqLvI590w4OhDW19Kl0mPMkVoawrxjciJZKNjMPf65e/z2bV005ev2XvuzYyUkcl4kJ/xq6MSDasQU61dQ73kfOBkvIWUsP7ETwjTHak+Yaaf1Gdt4tdMXtgklX6UnPvthOChEQ8Z2ss0MsR3C2dNql+//e6o3EFVVrTyC+oytZdMMhjVCsJPacGZp0D2y1RepdrrJSG0pVa5j+vmuca2BNkTOtmy1GmXJa3syraypGn4ubZIgUJfSFtPKFv1SM2nWUbqhbqiZ6xgnIVFLY0y6bg40UyCPkP3mtQ87hJH39KVEhR84adnc21ssQ/miXZpJ5xTMeEu1W2uz5bV5G/GVfSza3dm03MRpi5CW2Re3rz62A7RlSymVu69sKRMwOBwzobYR0jt2T0H3hkf+73nyMRGGOuW560xEXJXkmU3SD+K8JaA1QkmYfPnn3as51+jo8X1LQHuRCnp4TstNx7YonEXrTaq2LE1oDlrw8mWnFJLihbYK5bBGaM5ZIJRz9dfNc5d+8Tcejrwdaoc5IuUyS9M4js8jhKchzGHkhEb86fyzgKrzZo68faCiTULt15ydtC5wMbmDsW/bwDKrcW18d/YYOICB5ULqdtzWmFolpPyYnGln/NgJltXc/xUQ6nzOz+4thEhzGtL2EcNWCRmhL89m2rDVTmTzzEQPm4DtKghhTVTun0UQV8FczXZVv4jELc+LXbVKCE/J+QOsVMDMi1+/5AtPOJNi1mZZdCyEcB4XZfNV5iSTRoMDSxp+kK7lmec1WI6CjqIolHz2lMWNkxoi8H0RrzhtF1w8CkJKzOFj2oXj5W6zjBvm+CG4dAEL4dfRDquQQuDT5iZiVP71dy2diaCNnzgsa18FYcgqtwuWs1kkpVoVtYCQxQRK8Pw9ALbWDyWFs/+qMw75fLcUQe04H5aG73adzr2xNhMFIZcQkqbK/JhVRfTpmjYcEyq2uex0+JQVQlYd/Ce52u+Oz3HV2YvPZzTg/x9K2u1sJguEjCh1r2aPi+Ntlprsw2mnfu1Q8W6nWBSxLntxLk4YEvLtny2EvpqFzk/1us5tuOPDrPupTBcnBHO/Nz288cI+TfttGlVMYjfnsjPg5QkhyJJ5sBsEHFH/52D8d/m+2VkRxO4a4ha7n/N6+XZY9fJU5cetU+NuV0ON4pDr4a7uMTt0hLYIKYXNoDSi0ptryNiMDk8AauOTPvxeepqNSe0hXE87NEP7aser7uvVfvX3c2E6QvFha4wTF9PjYwkzasxsiPnCfkbbOyxhVniW7zaH2+W2AG2Xt4fNLp95fR2JZpuQVIH6XKm5VlmWc6WU2bnWbef2GAmrCRdqRhvy7eDoNuFcV0NYnRX9/glmXLraHYXXRmiefe0MQv07e6X+/yGsMKtNv++56vHgxZEQDigkREIktC8kREIktC8kREIktC8kRMJfl9A213cNcvsDrz1864KCORFD2PN9iC7szx2F3gl7vn3NhdPGRlGIgxF6tM1hBxfQUITTexqNiXDa9x0lIlN0LKYmpJTcZ6Lv7iKe0ZGYGrPFtBzgarlVr9PyXxCsPMoB7l1zXNU6Cntg0dfusG/F+RciC/pUFJJB7j8UcAHiKBApbP3v2Sc1hMJZeCbo4rxo3l5VLaMTvuifz0QZ3N1ICC+49FXAHwFNQ+HD3CWrPfmkuPHqD90cWBBoyyhfF+LMbVXtBOFO6aKUtMvp1H0RQszOIhXBEFceV6F4cC+3tHXVIzhVcC934nc/uKGOsIrkCszd6hYuVwfdl9Xd6ibEfzCZc62m/V5831LTbIhbgE9Cmr3MA77FU2m+hm5eMsFLvc+3BC/7Rp23c58uq4vSXS6xX0X4TlEoFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAr1K+h/JEi3zQPcSdQAAAAASUVORK5CYII=" alt="">
+        </div>
+        <div class="navhome">
+            <div class="ho">Home</div>
+            <i class="fa-regular fa-star"></i>
+        </div>
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </div>
+    <section>
+
+        <!-- leftsidebar -->
+        <div class="left">
+            <div class="links">
+                <a href="#" class="home">
+                    <i class="fa-solid fa-house"></i>
+                    <div class="cl">Home</div>
+                </a>
+                <a href="#" class="explore">
+                    <i class="fa-solid fa-hashtag"></i>
+                    <div class="cl">Explore</div>
+                </a>
+                <a href="#" class="profile">
+                    <i class="fa-solid fa-user"></i>
+                    <div class="cl">Profile</div>
+                </a>
+            </div>
+            <div class="last">
+                <div>username</div>
+            <div   div class="log">
+                <div>@username</div>
+                <button class="logout">Logout</button>
+            </div>
+            </div>
+
+        </div>
+        <!-- main -->
+
+        <div class="main">
+            <div class="text">
+                <div>username</div>
+                <input type="text" class="te">
+                <div><button class="tweet">Tweet</button></div>
+            </div>
+            <p>add your timeline tweet</p>
+        </div>
+
+        <!-- right -->
+
+        <div class="right">
+            <p class="trending">Trending</p>
+            <div class="hash">
+                <div class="sam">#Samarth Vohra</div>
+                <div class="sam">#vohra_samarth</div>
+                <div class="sam">#Samarth0606</div>
+                <div class="sam">#amazing Coder</div>
+                
+            </div>
+        </div>
+    </section>
+</body>
+</html>
